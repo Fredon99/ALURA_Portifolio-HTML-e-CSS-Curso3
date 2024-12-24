@@ -49,6 +49,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 82px;
 }
 .apresentacao__conteudo {
     width: 48%;
@@ -97,7 +98,7 @@ body{
 }
 
 .apresentacao__imagem {
-    width: 35% ;
+    width: 45% ;
 }
 
 .footer {
@@ -107,4 +108,19 @@ body{
     padding: 1%;
     font-size: 1rem;
     font-family: var(--fonte-secundaria);
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
