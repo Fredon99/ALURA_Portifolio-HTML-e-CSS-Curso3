@@ -64,6 +64,7 @@ body{
 .apresentacao__conteudo__texto {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+    text-align:center;
 }
 .apresentacao__links {
     display: flex;
